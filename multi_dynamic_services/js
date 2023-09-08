@@ -1,0 +1,11 @@
+// JavaScript for the live chat feature
+const chatButton = document.createElement("button");
+chatButton.innerText = "Live Chat";
+chatButton.className = "chat-button";
+
+chatButton.addEventListener("click", () => {
+    // You can add code here to open a chat window or connect to a chat service
+    alert("Hello! How can we assist you today?");
+});
+
+document.body.appendChild(chatButton);
